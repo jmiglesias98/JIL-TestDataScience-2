@@ -40,7 +40,7 @@ El proyecto combina análisis exploratorio de series temporales, construcción y
 
 | Archivo                     | Descripción |
 |-----------------------------|-------------|
-| `main.py`                   | Orquestador de la solución. |
+| `app.py`                   | Orquestador de la solución. Realiza la llamada a la API.|
 | `data_preprocessing.py`     | Script encargado de cargar los datos y tratarlos para que puedan ser usados por el modelo.|
 | `model_predict.py`          | Script encargado de cargar el modelo y realizar la predicción. |
 | `config.py`                 | Contiene todos los parámetros a utilizar en nuestra operativización. |
