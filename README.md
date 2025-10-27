@@ -21,7 +21,6 @@ El proyecto combina análisis exploratorio de series temporales, construcción y
 | Archivo                     | Descripción |
 |-----------------------------|-------------|
 | `02_time_series_analysis_test_2.ipynb`    | Notebook que contiene el desarrollo del caso práctico y la argumentación del mismo. |
-| `02_time_series_analysis_test_2.html`     | Notebook renderizado. |
 
 ## Modelos
 
@@ -40,6 +39,7 @@ El proyecto combina análisis exploratorio de series temporales, construcción y
 
 | Archivo                     | Descripción |
 |-----------------------------|-------------|
+| `__init__.py`               | Archivo de inicialización del paquete src, permite importar módulos como un paquete de Python.|
 | `app.py`                   | Orquestador de la solución. Realiza la llamada a la API.|
 | `data_preprocessing.py`     | Script encargado de cargar los datos y tratarlos para que puedan ser usados por el modelo.|
 | `model_predict.py`          | Script encargado de cargar el modelo y realizar la predicción. |
