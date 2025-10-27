@@ -12,7 +12,6 @@ El proyecto combina análisis exploratorio de series temporales, construcción y
 | `src/`                 | Scripts y funciones listas para ejecutar el modelo entrenado en un entorno de producción, integrando DevOps mediante contenedores Docker. Incluye la API y utilidades para preprocesar datos y generar predicciones. |
 | `models/`              | Contiene el modelo definitivo entrenado, listo para su uso en predicciones o para integrarse en otros entornos. |
 | `data/`                | Carpeta para almacenar los datos utilizados en la productivización, organizada en subcarpetas según su estado: por ejemplo, `raw` para datos originales y `processed` para datos preprocesados. |
-| `.devcontainer/`       | Configuración de contenedor para asegurar un entorno de desarrollo reproducible, útil para colaborar en el proyecto sin problemas de compatibilidad. |
 | `Dockerfile`           | Define la imagen Docker que incluye todas las dependencias y configuraciones necesarias para ejecutar el proyecto de manera consistente. |
 | `requirements.txt`     | Lista de bibliotecas de Python con versiones específicas para garantizar compatibilidad y reproducibilidad. |
 
